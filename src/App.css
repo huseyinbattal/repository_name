@@ -12,6 +12,10 @@ color: red;
 font-weight: bold;
 }
 
+.blogItem{
+  border: 1px solid blue;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
