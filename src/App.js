@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./logo.svg";
 import BlogComp from "./components/Blog.js";
+import Footer from "./components/Footer";
 
 function App() {
   let headerone = <div>LET HEADERONE</div>;
@@ -51,6 +52,7 @@ function App() {
   return <div className="App">
     {/* {content} */}
     <BlogComp data={blogInfos} />
+    <Footer/>
   </div>;
 }
 
